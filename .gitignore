@@ -1,0 +1,13 @@
+venv/
+
+service_account.json
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.log
+
+.idea/
+*.iml

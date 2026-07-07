@@ -1,0 +1,37 @@
+poe2:
+  url: "https://poe.ninja/poe2/api/economy/exchange/current/overview"
+  league: "Runes of Aldur"
+  endpoints:
+    - name: "Currency"
+      params:
+        type: "Currency"
+    - name: "Fragments"
+      params:
+        type: "Fragments"
+    - name: "Abyssal Bones"
+      params:
+        type: "Abyss"
+    - name: "Essences"
+      params:
+        type: "Essences"
+    - name: "Soul Cores"
+      params:
+        type: "SoulCores"
+    - name: "Runes"
+      params:
+        type: "Runes"
+    - name: "Omens"
+      params:
+        type: "Ritual"
+    - name: "Expedition"
+      params:
+        type: "Expedition"
+    - name: "Liquid Emotions"
+      params:
+        type: "Delirium"
+    - name: "Catalysts"
+      params:
+        type: "Breach"
+    - name: "Verisium"
+      params:
+        type: "Verisium"
