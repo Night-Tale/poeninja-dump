@@ -21,6 +21,6 @@ def extract_currency_list(data, source):
 def transform_to_rows(currency_list):
 	rows: list[list[str]] = [['Source', 'Currency', 'Divine Value']]
 	for source, name, value in currency_list:
-		rows.append([source, name, str(value)])
+		rows.append([source, name, str(value).replace('.', ',')])
 
 	return rows
